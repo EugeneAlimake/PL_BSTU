@@ -1,0 +1,199 @@
+#include <iostream>
+#include <stdlib.h>
+#include<stdio.h>
+#include<string.h>
+#include<string>
+
+using namespace std;
+int BranchDate(char* x, int& d, int& m, int& y)
+{
+	char  buf[4];
+	for (int i = 0; i < 9; i++)
+	{
+		if (i < 2)
+		{
+			buf[i] = x[i];
+		}
+		if (i == 2) {
+			d = atoi(buf);
+		}
+		if ((i > 1) & (i < 4))
+		{
+			buf[i - 2] = x[i];
+		}
+		if (i == 4) {
+			m = atoi(buf);
+		}
+		if ((i > 3) & (i < 8))
+		{
+			buf[i - 4] = x[i];
+		}
+		if (i == 8) {
+			y = atoi(buf);
+		}
+	}
+	return 0;
+}
+bool CheckYear(int& y, bool& FlagYear)
+{
+	if (y % 4 == 0 && y % 100 != 0 || y % 400 == 0)
+		FlagYear = true;
+	else
+		FlagYear = false;
+	return 0;
+}
+bool CheckNextYear(int& y, bool& FlagYear)
+{
+	int k = y + 1;
+	if (k % 4 == 0 && k % 100 != 0 || k % 400 == 0)
+		FlagYear = true;
+	else
+		FlagYear = false;
+	return 0;
+}
+int CountDays(int& countDays, int* numM, int& d, int& m, bool& FlagYear)
+{
+	for (int i = 0; i < m; i++)
+	{
+		if (i != m - 1)
+			countDays = numM[i] + countDays;
+		else if (FlagYear)
+		{
+			countDays++;
+			countDays = countDays + d;
+		}
+		else
+		{
+			countDays = countDays + d;
+		}
+	}
+	return countDays;
+}
+int CountBirthday(int& d, int& m, int& y, int& db, int& mb, int* numM)
+{
+	int countDays = 0, countDaysb = 0, days = 0;
+	bool Flag;
+	if (m > mb || (m == mb && d >= db))
+	{
+		CheckNextYear(y, Flag);
+		if ((Flag) && ((mb > 02)))
+			days = 366 - (CountDays(countDays, numM, d, m, Flag) - CountDays(countDaysb, numM, db, mb, Flag));
+		else
+			days = 365 - (CountDays(countDays, numM, d, m, Flag) - CountDays(countDaysb, numM, db, mb, Flag));
+	}
+	else
+	{
+		CheckYear(y, Flag);
+		if ((Flag == true) && ((mb > 02) || ((mb == 02) && (db == 29))))
+			days = (CountDays(countDaysb, numM, db, mb, Flag) - CountDays(countDays, numM, d, m, Flag)) + 1;
+		else
+			days = CountDays(countDaysb, numM, db, mb, Flag) - CountDays(countDays, numM, d, m, Flag);
+	}
+	cout << days << endl;
+	return 0;
+}
+bool DateCheck(int& d, int& m, int& y, bool& FlagYear, bool& zb)
+{
+	bool chek;
+	CheckYear(y, chek);
+	if (((m == 01 || m == 03 || m == 05 || m == 07 || m == 8 || m == 10 || m == 12) && d > 32) || m > 12)
+	{
+		zb = false;
+	}
+	else if ((m == 4 || m == 6 || m == 9 || m == 11) && d > 30)
+	{
+		zb = false;
+	}
+	else if (chek == true && m == 2 && d > 29)
+	{
+		zb = false;
+	}
+	else if (m == 02 && d > 28)
+	{
+		zb = false;
+	}
+	else
+	{
+		zb = true;
+	}
+	return true;
+}
+void main()
+{
+	setlocale(LC_ALL, "RUS");
+	bool FlagYear = false;
+	bool zb = false;
+	int numM[12], countDays = 0;
+	{
+		numM[0] = 31;
+		numM[1] = 28;
+		numM[2] = 31;
+		numM[3] = 30;
+		numM[4] = 31;
+		numM[5] = 30;
+		numM[6] = 31;
+		numM[7] = 31;
+		numM[8] = 30;
+		numM[9] = 31;
+		numM[10] = 30;
+		numM[11] = 31;
+	}
+	char x[8], buf[4], xb[9];
+	int d, m, y;
+	int db, mb, yb;
+TryD:
+	printf("Enter date : ");
+	string line;
+	//gets_s(x);
+	getline(cin, line);
+	while (line.size() != 8)
+	{
+		cout << "ошибка\n";
+		printf("Enter date : ");
+		getline(cin, line);
+	}
+	for (int i = 0; i < line.size(); i++)
+	{
+		x[i] = line[i];
+	}
+	BranchDate(x, d, m, y);
+	CheckYear(y, FlagYear);
+	DateCheck(d, m, y, FlagYear, zb);
+	if (zb == false)
+	{
+		goto TryD;
+	}
+TryB:
+	printf("Enter yours HB : ");
+	//gets_s(xb);
+	string line2;
+	getline(cin, line2);
+	while (line2.size() != 8)
+	{
+		cout << "ошибка\n";
+		printf("Enter date HB: ");
+		getline(cin, line2);
+	}
+	for (int i = 0; i < line2.size(); i++)
+	{
+		xb[i] = line2[i];
+	}
+	BranchDate(xb, db, mb, yb);
+	CheckYear(yb, FlagYear);
+	DateCheck(db, mb, yb, FlagYear, zb);
+	if (zb == false)
+	{
+		goto TryB;
+	}
+	cout << "Leap year?" << endl;
+	CheckYear(y, FlagYear);
+	if (FlagYear)
+		cout << "Yes" << endl;
+	else
+		cout << "No" << endl;
+	CountDays(countDays, numM, d, m, FlagYear);
+	cout << "Ordinal number: " << countDays << endl;
+	cout << "Days to birthday:";
+	CountBirthday(d, m, y, db, mb, numM);
+	system("Pause");
+}
