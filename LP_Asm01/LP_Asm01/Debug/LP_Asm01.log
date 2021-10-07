@@ -1,0 +1,27 @@
+﻿Сборка начата 14.04.2021 20:42:14.
+     1>Проект "D:\1 курс 2 сем\2 сем\яп\ассемблер\1 ас\LP_Asm01\LP_Asm01\LP_Asm01.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\LP_Asm01.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling LP_Asm.asm...
+         cmd.exe /C "C:\Users\ЖЕНЯ\AppData\Local\Temp\tmpc52bf86c1ff042b79dc3436efca69111.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\LP_Asm.obj" /W3 /errorReport:prompt  /TaLP_Asm.asm
+     1>LP_Asm.asm(13): error A2008: syntax error : MB_YESNO
+     1>LP_Asm.asm(24): error A2006: undefined symbol : MB_YESNO
+     1>LP_Asm.asm(24): error A2114: INVOKE argument type mismatch : argument : 4
+     1>D:\visual\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets(69,5): error MSB3721: выход из команды "ml.exe /c /nologo /Zi /Fo"Debug\LP_Asm.obj" /W3 /errorReport:prompt  /TaLP_Asm.asm" с кодом "1".
+     1>Сборка проекта "D:\1 курс 2 сем\2 сем\яп\ассемблер\1 ас\LP_Asm01\LP_Asm01\LP_Asm01.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\1 курс 2 сем\2 сем\яп\ассемблер\1 ас\LP_Asm01\LP_Asm01\LP_Asm01.vcxproj" (целевой объект Build ) (1) ->
+       (_MASM конечный объект) -> 
+         LP_Asm.asm(13): error A2008: syntax error : MB_YESNO
+         LP_Asm.asm(24): error A2006: undefined symbol : MB_YESNO
+         LP_Asm.asm(24): error A2114: INVOKE argument type mismatch : argument : 4
+         D:\visual\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets(69,5): error MSB3721: выход из команды "ml.exe /c /nologo /Zi /Fo"Debug\LP_Asm.obj" /W3 /errorReport:prompt  /TaLP_Asm.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 4
+
+Прошло времени 00:00:01.10
