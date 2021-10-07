@@ -1,0 +1,36 @@
+﻿Сборка начата 02.04.2021 12:26:06.
+     1>Проект "D:\1 курс 2 сем\2 сем\яп\9 лаба\LP_Lab09\LP_Lab09\LP_Lab09.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\LP_Lab09.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         D:\visual\VC\Tools\MSVC\14.20.27508\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt LP_Lab09.cpp
+         LP_Lab09.cpp
+     1>D:\1 курс 2 сем\2 сем\яп\9 лаба\LP_Lab09\LP_Lab09\LP_Lab09.cpp(39): warning C4305: аргумент: усечение из "double" в "float"
+     1>D:\1 курс 2 сем\2 сем\яп\9 лаба\LP_Lab09\LP_Lab09\LP_Lab09.cpp(40): warning C4305: аргумент: усечение из "double" в "float"
+     1>D:\1 курс 2 сем\2 сем\яп\9 лаба\LP_Lab09\LP_Lab09\LP_Lab09.cpp(41): warning C4305: аргумент: усечение из "double" в "float"
+     1>D:\1 курс 2 сем\2 сем\яп\9 лаба\LP_Lab09\LP_Lab09\LP_Lab09.cpp(67): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>D:\1 курс 2 сем\2 сем\яп\9 лаба\LP_Lab09\LP_Lab09\LP_Lab09.cpp(68): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+       Link:
+         D:\visual\VC\Tools\MSVC\14.20.27508\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1 курс 2 сем\2 сем\яп\9 лаба\LP_Lab09\Debug\LP_Lab09.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\1 курс 2 сем\2 сем\яп\9 лаба\LP_Lab09\Debug\LP_Lab09.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1 курс 2 сем\2 сем\яп\9 лаба\LP_Lab09\Debug\LP_Lab09.lib" /MACHINE:X86 Debug\Call.obj
+         Debug\LP_Lab09.obj
+         Debug\Varparm.obj
+         LP_Lab09.vcxproj -> D:\1 курс 2 сем\2 сем\яп\9 лаба\LP_Lab09\Debug\LP_Lab09.exe
+       FinalizeBuildStatus:
+         Файл "Debug\LP_Lab09.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\LP_Lab09.tlog\LP_Lab09.lastbuildstate".
+     1>Сборка проекта "D:\1 курс 2 сем\2 сем\яп\9 лаба\LP_Lab09\LP_Lab09\LP_Lab09.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\1 курс 2 сем\2 сем\яп\9 лаба\LP_Lab09\LP_Lab09\LP_Lab09.vcxproj" (целевой объект Build ) (1) ->
+       (ClCompile конечный объект) -> 
+         D:\1 курс 2 сем\2 сем\яп\9 лаба\LP_Lab09\LP_Lab09\LP_Lab09.cpp(39): warning C4305: аргумент: усечение из "double" в "float"
+         D:\1 курс 2 сем\2 сем\яп\9 лаба\LP_Lab09\LP_Lab09\LP_Lab09.cpp(40): warning C4305: аргумент: усечение из "double" в "float"
+         D:\1 курс 2 сем\2 сем\яп\9 лаба\LP_Lab09\LP_Lab09\LP_Lab09.cpp(41): warning C4305: аргумент: усечение из "double" в "float"
+         D:\1 курс 2 сем\2 сем\яп\9 лаба\LP_Lab09\LP_Lab09\LP_Lab09.cpp(67): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+         D:\1 курс 2 сем\2 сем\яп\9 лаба\LP_Lab09\LP_Lab09\LP_Lab09.cpp(68): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+
+    Предупреждений: 5
+    Ошибок: 0
+
+Прошло времени 00:00:04.49
