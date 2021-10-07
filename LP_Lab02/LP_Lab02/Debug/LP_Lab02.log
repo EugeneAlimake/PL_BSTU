@@ -1,0 +1,20 @@
+﻿Сборка начата 19.02.2021 11:59:37.
+     1>Проект "C:\Users\ЖЕНЯ\Desktop\яп\2 лаба\LP_Lab02\LP_Lab02\LP_Lab02.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\LP_Lab02.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         D:\visual\VC\Tools\MSVC\14.20.27508\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\LP_Lab02.pch" /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt LP_Lab02.cpp
+         LP_Lab02.cpp
+     1>C:\Users\ЖЕНЯ\Desktop\яп\2 лаба\LP_Lab02\LP_Lab02\LP_Lab02.cpp(15): error C3861: del: идентификатор не найден
+     1>Сборка проекта "C:\Users\ЖЕНЯ\Desktop\яп\2 лаба\LP_Lab02\LP_Lab02\LP_Lab02.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\ЖЕНЯ\Desktop\яп\2 лаба\LP_Lab02\LP_Lab02\LP_Lab02.vcxproj" (целевой объект Build ) (1) ->
+       (ClCompile конечный объект) -> 
+         C:\Users\ЖЕНЯ\Desktop\яп\2 лаба\LP_Lab02\LP_Lab02\LP_Lab02.cpp(15): error C3861: del: идентификатор не найден
+
+    Предупреждений: 0
+    Ошибок: 1
+
+Прошло времени 00:00:03.23
