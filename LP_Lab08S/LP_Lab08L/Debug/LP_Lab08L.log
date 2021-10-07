@@ -1,0 +1,34 @@
+﻿Сборка начата 25.03.2021 20:34:46.
+     1>Проект "C:\Users\ЖЕНЯ\Desktop\яп\8 лаба\LP_Lab08S\LP_Lab08L\LP_Lab08L.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\LP_Lab08L.tlog\LP_Lab08L.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Debug\LP_Lab08L.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         D:\visual\VC\Tools\MSVC\14.20.27508\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\LP_Lab08L.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Dictionary.cpp
+         Dictionary.cpp
+     1>C:\Users\ЖЕНЯ\Desktop\яп\8 лаба\LP_Lab08S\LP_Lab08L\Dictionary.cpp(59): warning C4018: <: несоответствие типов со знаком и без знака
+     1>C:\Users\ЖЕНЯ\Desktop\яп\8 лаба\LP_Lab08S\LP_Lab08L\Dictionary.cpp(75): warning C4018: <: несоответствие типов со знаком и без знака
+     1>C:\Users\ЖЕНЯ\Desktop\яп\8 лаба\LP_Lab08S\LP_Lab08L\Dictionary.cpp(83): warning C4715: Dictionary::GetEntry: значение возвращается не при всех путях выполнения
+       Lib:
+         D:\visual\VC\Tools\MSVC\14.20.27508\bin\HostX86\x86\Lib.exe /OUT:"C:\Users\ЖЕНЯ\Desktop\яп\8 лаба\LP_Lab08S\Debug\LP_Lab08L.lib" /NOLOGO Debug\Dictionary.obj
+         LP_Lab08L.vcxproj -> C:\Users\ЖЕНЯ\Desktop\яп\8 лаба\LP_Lab08S\Debug\LP_Lab08L.lib
+       CopyFilesToOutputDirectory:
+         Копирование файла из "C:\Users\ЖЕНЯ\Desktop\яп\8 лаба\LP_Lab08S\LP_Lab08L\Debug\LP_Lab08L.pdb" в "C:\Users\ЖЕНЯ\Desktop\яп\8 лаба\LP_Lab08S\Debug\LP_Lab08L.pdb".
+       FinalizeBuildStatus:
+         Файл "Debug\LP_Lab08L.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\LP_Lab08L.tlog\LP_Lab08L.lastbuildstate".
+     1>Сборка проекта "C:\Users\ЖЕНЯ\Desktop\яп\8 лаба\LP_Lab08S\LP_Lab08L\LP_Lab08L.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+       "C:\Users\ЖЕНЯ\Desktop\яп\8 лаба\LP_Lab08S\LP_Lab08L\LP_Lab08L.vcxproj" (целевой объект Rebuild ) (1) ->
+       (ClCompile конечный объект) -> 
+         C:\Users\ЖЕНЯ\Desktop\яп\8 лаба\LP_Lab08S\LP_Lab08L\Dictionary.cpp(59): warning C4018: <: несоответствие типов со знаком и без знака
+         C:\Users\ЖЕНЯ\Desktop\яп\8 лаба\LP_Lab08S\LP_Lab08L\Dictionary.cpp(75): warning C4018: <: несоответствие типов со знаком и без знака
+         C:\Users\ЖЕНЯ\Desktop\яп\8 лаба\LP_Lab08S\LP_Lab08L\Dictionary.cpp(83): warning C4715: Dictionary::GetEntry: значение возвращается не при всех путях выполнения
+
+    Предупреждений: 3
+    Ошибок: 0
+
+Прошло времени 00:00:09.55
