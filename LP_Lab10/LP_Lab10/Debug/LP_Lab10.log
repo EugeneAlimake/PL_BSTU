@@ -1,0 +1,10 @@
+﻿  Error.cpp
+A:\БГТУ\1 курс 2 сем\2 сем\яп\10 лаба\LP_Lab10\LP_Lab10\Error.cpp(29,31): warning C4804: <: небезопасное использование типа "bool" в операции
+  In.cpp
+  Log.cpp
+  LP_Lab10.cpp
+  Parm.cpp
+  Test.cpp
+  Создание кода...
+A:\БГТУ\1 курс 2 сем\2 сем\яп\10 лаба\LP_Lab10\LP_Lab10\Error.cpp(41,31): warning C4804: <: небезопасное использование типа "bool" в операции
+  LP_Lab10.vcxproj -> A:\БГТУ\1 курс 2 сем\2 сем\яп\10 лаба\LP_Lab10\Debug\LP_Lab10.exe
