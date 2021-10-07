@@ -1,0 +1,13 @@
+﻿  Error.cpp
+A:\БГТУ\1 курс 2 сем\2 сем\яп\LPLab13\LPLab13\Error.cpp(33,31): warning C4804: <: небезопасное использование типа "bool" в операции
+  FST.cpp
+A:\БГТУ\1 курс 2 сем\2 сем\яп\LPLab13\LPLab13\Error.cpp(45,31): warning C4804: <: небезопасное использование типа "bool" в операции
+  In.cpp
+  LPLab13.cpp
+A:\БГТУ\1 курс 2 сем\2 сем\яп\LPLab13\LPLab13\FST.cpp(58,36): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+A:\БГТУ\1 курс 2 сем\2 сем\яп\LPLab13\LPLab13\LPLab13.cpp(23,28): warning C4018: <: несоответствие типов со знаком и без знака
+  Log.cpp
+  Parm.cpp
+  Создание кода...
+A:\БГТУ\1 курс 2 сем\2 сем\яп\LPLab13\LPLab13\LPLab13.cpp(20,5): warning C4102: Log: неиспользованная метка
+  LPLab13.vcxproj -> A:\БГТУ\1 курс 2 сем\2 сем\яп\LPLab13\Debug\LPLab13.exe
