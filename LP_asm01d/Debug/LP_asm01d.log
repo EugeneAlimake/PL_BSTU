@@ -1,0 +1,24 @@
+﻿Сборка начата 11.11.2020 16:25:22.
+Уровень детализации журнала: Normal.     1>Проект "D:\Нада\ЯП\Lab_17\LP_asm01\LP_asm01d\LP_asm01d.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "Debug\LP_asm01d.tlog\".
+       InitializeBuildStatus:
+         Создание "Debug\LP_asm01d.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\LP_asm01d.pdb" /Gd /TP /analyze- /FC /errorReport:prompt LP_asm01d.cpp
+         LP_asm01d.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\Lib.exe /OUT:"D:\Нада\ЯП\Lab_17\LP_asm01\LP_asm01\Debug\LP_asm01d.lib" /NOLOGO /MACHINE:X86 Debug\LP_asm01d.obj
+         LP_asm01d.vcxproj -> D:\Нада\ЯП\Lab_17\LP_asm01\LP_asm01\Debug\LP_asm01d.lib
+       CopyFilesToOutputDirectory:
+         Копирование файла из "D:\Нада\ЯП\Lab_17\LP_asm01\LP_asm01d\Debug\LP_asm01d.pdb" в "D:\Нада\ЯП\Lab_17\LP_asm01\LP_asm01\Debug\LP_asm01d.pdb".
+       FinalizeBuildStatus:
+         Файл "Debug\LP_asm01d.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\LP_asm01d.tlog\LP_asm01d.lastbuildstate".
+     1>Сборка проекта "D:\Нада\ЯП\Lab_17\LP_asm01\LP_asm01d\LP_asm01d.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.29
